@@ -1,0 +1,6 @@
+limit, offset and fetch
+
+SELECT * FROM person LIMIT 10;
+SELECT * FROM person OFFSET 5 LIMIT 5;
+SELECT * FROM person OFFSET 2 LIMIT 3; 
+SELECT * FROM person OFFSET 5 FETCH FIRST 5 ROW ONLY;
