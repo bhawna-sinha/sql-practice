@@ -1,4 +1,4 @@
-coalesce
+coalcees
 
 SELECT COALESCE(email, 'not provided') FROM person;
 
