@@ -1,8 +1,3 @@
-1. Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
-
-SELECT COUNT(*) - COUNT(DISTINCT CITY) AS CityCountDifference
-FROM STATION;
-
 Joins
 
 Q. Insert the missing parts in the JOIN clause to join the two tables orders and customers,
